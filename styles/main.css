@@ -1,0 +1,37 @@
+/*UNIVERSAL STYLES*/
+body {
+  background-color: #E8F6EF;
+  font-family: "Dosis", sans-serif;
+  color: #185ADB;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Carter One", cursive;
+}
+
+/*HEADER*/
+.header-container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #FFB319;
+  color: #FFE194;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
+}
+
+.header-img {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  opacity: 1;
+}
+
+#eda {
+  margin-right: 10px;
+  font-size: 20px;
+}
