@@ -46,6 +46,10 @@ figcaption {
   font-size: 12px;
   font-style: italic;
 }
+
+.homepage-link {
+  font-size: 14px;
+}
 /*HEADER*/
 .header-container {
   width: 100%;
