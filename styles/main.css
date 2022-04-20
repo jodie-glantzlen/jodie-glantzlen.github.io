@@ -33,6 +33,19 @@ a:hover {
   font-weight: bold;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
 /*HEADER*/
 .header-container {
   width: 100%;
