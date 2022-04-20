@@ -54,7 +54,6 @@ figcaption {
   height: 80px;
   position: fixed;
   top: 0;
-  opacity: 0.9;
 }
 
 .header-content {
@@ -66,7 +65,6 @@ figcaption {
 .header-img {
   width: 70px;
   height: 70px;
-  opacity: 1;
 }
 
 #eda-link {
