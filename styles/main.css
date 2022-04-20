@@ -56,7 +56,7 @@ figcaption {
   background-color: #FFB319;
   color: #FFE194;
   height: 80px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
 }
 
