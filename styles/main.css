@@ -2,7 +2,7 @@
 body {
   background-color: #E8F6EF;
   font-family: "Dosis", sans-serif;
-  font-size: clamp(14px, 2vw, 20px);
+  font-size: clamp(16px, 2vw, 22px);
   color: #5584AC;
   margin: 0;
 }
@@ -43,20 +43,25 @@ figure {
 }
 
 figcaption {
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
+  word-spacing: normal;
 }
 
 .homepage-link {
-  font-size: 14px;
+  font-size: 16px;
 }
+
+li {
+  margin-bottom: 50px;
+}
+
 /*HEADER*/
 .header-container {
   width: 100%;
   background-color: #FFB319;
   color: #FFE194;
   height: 80px;
-  /* position: fixed; */
   top: 0;
 }
 
@@ -80,7 +85,30 @@ figcaption {
 
 /*TITLE SECTION*/
 .title-section {
-margin-top: 80px;
+margin-top: 60px;
+}
+
+/*MAIN*/
+.blog-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between
+}
+
+.blog-nav {
+  width: 30%;
+  position: sticky;
+  top: 100px;
+  height: 50%;
+  margin-top: 100px;
+}
+
+.blog-body {
+  width: 70%;
+  padding-right: 10%;
+  text-align: justify;
+  word-spacing: 8px;
+  line-height: 1.2;
 }
 
 /*FOOTER*/
