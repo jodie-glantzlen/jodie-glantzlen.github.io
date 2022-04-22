@@ -48,14 +48,6 @@ figcaption {
   word-spacing: normal;
 }
 
-.homepage-link {
-  font-size: 16px;
-}
-
-li {
-  margin-bottom: 50px;
-}
-
 /*HEADER*/
 .header-container {
   width: 100%;
@@ -96,7 +88,7 @@ margin-top: 60px;
 }
 
 .blog-nav {
-  width: 30%;
+  width: 40%;
   position: sticky;
   top: 100px;
   height: 50%;
@@ -104,11 +96,19 @@ margin-top: 60px;
 }
 
 .blog-body {
-  width: 70%;
+  width: 60%;
   padding-right: 10%;
   text-align: justify;
   word-spacing: 8px;
   line-height: 1.2;
+}
+
+.nav-list {
+  margin-bottom: 50px;
+}
+
+.homepage-link {
+  font-size: 16px;
 }
 
 /*FOOTER*/
