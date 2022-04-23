@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Dosis:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico.png">
   <title>My blog</title>
 </head>
@@ -20,25 +20,34 @@
   </header>
   <div class="section-container">
     <div class="content-boundary">
-      <div class="me-section-title">
+      <div class="title-section">
         <h1>Hi, I'm Jodie.</h1>
       </div>
       <div class="blog-list-container">
-          <a href="blog/learning-plan.html">My Learning Plan</a>
-          <a href="blog/identity-values.html">My identity, values and strengths</a>
-          <a href="blog/html-css.html">CSS <code>inline</code> vs <code>inline-block</code></a>
-          <a href="blog/te-houtaewa-template.html">Te Houtaewa</a>
+        <img id="me-img" src="resources/images/me.jpg" alt="">
+        <div>
+          <h3 class="list-category">Core</h3>
+          <ul>
+            <li><a href="blog/learning-plan.html">My Learning Plan</a></li>
+            <li><a href="blog/identity-values.html">My identity, values and strengths</a></li>
+            <li><a href="blog/te-houtaewa-template.html">Te Houtaewa</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="list-category">Tech</h3>
+          <ul>
+            <li><a href="blog/html-css.html">CSS <code>inline</code> vs <code>inline-block</code></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="credit">
+        <p>Kōtare icon by 
+          <a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>
+          from 
+          <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+        </p>
       </div>
     </div>
   </div>
-  <footer class="section-container footer-container">
-    <div class="content-boundary">
-      <p>Kōtare icon by 
-        <a href="https://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>
-        from 
-        <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
-      </p>
-    </div>
-  </footer>
 </body>
 </html>
