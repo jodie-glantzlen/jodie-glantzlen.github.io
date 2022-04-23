@@ -34,8 +34,9 @@ a:hover {
 }
 
 a:visited {
-  color: 
+  color: #1B1A17;
 }
+
 img {
   width: 100%;
   height: auto;
@@ -111,6 +112,7 @@ text-align: center;
 
 #credit {
   font-size: 12px;
+  margin-top: 50px;
 }
 
 
