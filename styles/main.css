@@ -10,7 +10,6 @@ body {
 h1 {
   font-family: "Carter One", cursive;
   font-size: clamp(25px, 5vw, 50px);
-  text-align: center;
   margin-bottom: 10px;
   margin-top: 0px;
 }
@@ -78,15 +77,12 @@ figcaption {
 
 /*TITLE SECTION*/
 .title-section {
-margin-top: 60px;
+margin-top: 20px;
+text-align: center;
 }
 
-/*MAIN*/
-.homepage-content {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between
-}
+
+/*BLOGS*/
 
 .blog-content {
   display: flex;
@@ -115,11 +111,6 @@ margin-top: 60px;
 
 .homepage-link {
   font-size: 16px;
-}
-
-#me-img {
-  max-width: 15vw;
-  border-radius: 50%;
 }
 
 /*FOOTER*/
