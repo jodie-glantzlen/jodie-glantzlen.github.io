@@ -82,6 +82,12 @@ margin-top: 60px;
 }
 
 /*MAIN*/
+.homepage-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between
+}
+
 .blog-content {
   display: flex;
   flex-direction: row-reverse;
@@ -109,6 +115,11 @@ margin-top: 60px;
 
 .homepage-link {
   font-size: 16px;
+}
+
+#me-img {
+  max-width: 15vw;
+  border-radius: 50%;
 }
 
 /*FOOTER*/
