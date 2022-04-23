@@ -106,6 +106,10 @@ text-align: center;
   align-content: center;
 }
 
+.blog-list-content {
+  padding-left: 30px;
+}
+
 #jodie-img-container {
   display: flex;
   flex-direction: column;
