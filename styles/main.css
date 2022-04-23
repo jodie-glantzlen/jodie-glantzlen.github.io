@@ -59,7 +59,7 @@ figcaption {
 
 .header-content {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -73,6 +73,7 @@ figcaption {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
+  margin-left: 20px;
 }
 
 /*TITLE SECTION*/
