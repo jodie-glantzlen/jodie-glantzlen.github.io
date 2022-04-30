@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Javascript & the DOM</title>
+  <title>Javascript concepts</title>
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +63,19 @@
               I'm French, and I love crêpes! So today I'm going to keep making crêpes, following the recipe from top to bottom, until I run out of milk. 
               <em>As long as I've got milk, the crêpes are going to keep being made.</em>
             </p>
+            <ul>
+              <li>I'm making my first batch of crêpes.</li>
+              <li>Still got milk? Yup.</li>
+              <li>Let's make another one.</li>
+              <br>
+              <li>I'm making my second batch of crêpes.</li>
+              <li>Still got milk? <em>Oui!</em></li>
+              <li>Okay, third batch incoming.</li>
+              <br>
+              <li>I'm making my third batch of crêpes.</li>
+              <li>Oh no, no milk left.</li>
+              <li>No more crêpes.</li>
+            </ul>
             <figure>
               <img src="../resources/images/crepes.jpg" alt="" class="img-shadow">
               <figcaption>I'm hungry. (Photo by <a href="https://unsplash.com/@delaneyvan" target="_blank">Delaney Van</a> on 
@@ -94,7 +107,8 @@
             <img src="../resources/images/final.png" alt="" class="img-shadow">
             <img src="../resources/images/final2.png" alt="" class="img-shadow">
             <p>
-              Not to worry. These changes don't affect the actual website and they'll disappear after refreshing the page.
+              Not to worry. These changes don't affect the actual website and they'll disappear after refreshing the page, because 
+              what you see is a local copy of the code, not the actual source code.
             </p>
             <p>Source: <a href="https://www.kirupa.com/html5/javascript_the_browser_and_the_dom.htm" target="_blank">Kirupa</a></p>
           </div>
@@ -104,18 +118,18 @@
             <p>
               Think of objects as ID cards. They're used to represent something that is made up or can be defined by a set of characteristics.
             </p>
-            <img src="../resources/images/object1.png" alt="">
+            <img src="../resources/images/object1.png" alt="" class="img-shadow">
             <p>In tech language, these characteristics are called <em>properties</em>. They consist of a <code>key</code> and a <code>value</code>. For example, 
               <code>name</code> is our <code>key</code> and <code>'Jodie'</code> is our value. </p>
             <p>To access properties of an object, we use the keys and <em>dot (or bracket) notation</em>, like so:</p>
-            <img src="../resources/images/object2.png" alt="">
+            <img src="../resources/images/object2.png" alt="" class="img-shadow">
             <h3>Arrays</h3>
             <p>Think of arrays as big baskets in which you can put items in individual compartments. Each of these compartments are numbered and ordered, and they're called <em>indexes</em>.</p>
-            <img src="../resources/images/arr1.png" alt="">
+            <img src="../resources/images/arr1.png" alt="" class="img-shadow">
             <p>We can't actually see those numbers, but now that we know they're here, we can use them to access our array's data with <em>bracket notation</em>.
               Beware! never forget this very interesting programming trick: indexes start counting at <b>0</b>, not 1, like we poor humans do.
             </p>
-            <img src="../resources/images/arr2.png" alt="">
+            <img src="../resources/images/arr2.png" alt="" class="img-shadow">
             <p>Source: <a href="https://medium.com/@zac_heisey/objects-vs-arrays-42601ff79421#:~:text=Both%20objects%20and%20arrays%20are%20considered%20%E2%80%9Cspecial%E2%80%9D%20in%20JavaScript.,store%20a%20list%20of%20values." target="_blank">Medium</a></p>
           </div>
           <div>
@@ -132,13 +146,13 @@
             <img src="../resources/images/function.png" alt="" class="img-shadow">
             <p>
               Okay, calling that function will return <code>milkeggsflour</code>, which doesn't make any sense. But you got the idea, right? Combining milk eggs and flour 
-              will "return" crêpes. Now you can reuse the recipe function with any ingredient, all you need to do is filling in the parameters (you can think of them as 
+              will "return" crêpes. Now you can reuse the <code>recipe</code> function with any ingredient, all you need to do is filling in the parameters (you can think of them as 
               placeholders, if it helps).
             </p>
             <p>
               Functions are useful for many reasons, but the main one is their reusability. Once a function is written, it can be called multiple times 
-              from within the program and avoids duplicated code. This allows a very important concept in programming: DRY (“Don’t Repeat Yourself”). Functions can also 
-              be shared with other programs, reducing the amount of code that has to be written from scratch (and retested) each time. And we all know that good 
+              from within the program and avoids duplicated code. This allows a very important concept in programming: <em>DRY</em> (“Don’t Repeat Yourself”). Functions can also 
+              be shared with other programs, reducing the amount of code that has to be written from scratch each time. And we all know that good 
               developers are lazy.
             </p>
             <p>
