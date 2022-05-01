@@ -45,9 +45,8 @@ figure {
 }
 
 figcaption {
-  font-size: 16px;
+  font-size: 12px;
   font-style: italic;
-  word-spacing: normal;
 }
 
 .img-shadow {
@@ -158,7 +157,7 @@ text-align: center;
 }
 
 .homepage-link {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*MEDIA QUERIES*/
