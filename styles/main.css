@@ -85,6 +85,10 @@ figcaption {
   margin-left: 20px;
 }
 
+header a {
+  height: 60px;
+}
+
 /*TITLE SECTION*/
 
 .title-section {
